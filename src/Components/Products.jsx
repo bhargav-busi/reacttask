@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import Cards from './Cards';
+// import Cards from './Cards';
 import { data } from '../data';
 
 function Products() {
@@ -21,7 +21,7 @@ function Products() {
           <h2 className='des'>Name: {product.name}</h2>
           <h2 className='des'>Category: {product.category}</h2>
           <h2 className='des'>Price: ${product.price}</h2>
-          <Cards allitems={product} /> 
+{/*           <Cards allitems={product} />  */}
         </div>
       ) : (
         <h2>No product found for this category and ID.</h2>
