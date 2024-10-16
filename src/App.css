@@ -1,0 +1,15 @@
+.card{
+  width: 30rem;
+  margin-left: 150px;
+  /* box-shadow: 2px 5px 29px; */
+
+}
+#login-btn{
+  background-color: rgb(29, 223, 29);
+  font-weight: 500;
+  font-size: large;
+}
+#signup-btn{
+  font-weight: 500;
+  font-size: large;
+}
