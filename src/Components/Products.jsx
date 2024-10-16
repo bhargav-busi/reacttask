@@ -5,9 +5,7 @@ import { useParams } from 'react-router-dom';
 import { data } from '../data';
 
 function Products() {
-  const { category, id } = useParams(); // Get both category and id from URL
-
-  // Filter item based on the category and id from the URL
+  const { category, id } = useParams();
   const product = data.find(item => 
     item.category.toLowerCase() === category.toLowerCase() && item.id.toString() === id
   );
