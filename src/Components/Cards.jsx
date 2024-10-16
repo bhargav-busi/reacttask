@@ -8,7 +8,7 @@ function Cards({ allitems }) {
       {allitems.map(item => (
          <div key={item.id} className='info'>
           <img src={item.image} alt={item.image} className='photo'/>
-          <Link to={allitems.category}>
+          <Link to={`/products/${item.category}/${item.id}`}>
           <h2 className='des'>{item.name}</h2>
           </Link>
         
